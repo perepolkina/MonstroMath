@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		393E9E4B25F6A790003F20C5 /* myFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393E9E4A25F6A790003F20C5 /* myFunction.swift */; };
+		3946380925F2DD0F00186A86 /* MonstroMathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3946380825F2DD0F00186A86 /* MonstroMathApp.swift */; };
+		3946380D25F2DD1200186A86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3946380C25F2DD1200186A86 /* Assets.xcassets */; };
+		3946381025F2DD1200186A86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3946380F25F2DD1200186A86 /* Preview Assets.xcassets */; };
+		3946381B25F2DD1200186A86 /* MonstroMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3946381A25F2DD1200186A86 /* MonstroMathTests.swift */; };
+		3946382625F2DD1200186A86 /* MonstroMathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3946382525F2DD1200186A86 /* MonstroMathUITests.swift */; };
+		3946EFB925F96A3500CBAF83 /* ViewChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3946EFB825F96A3500CBAF83 /* ViewChild.swift */; };
+		39537C4225FA086A007A641B /* ButtonMinus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39537C4125FA086A007A641B /* ButtonMinus.swift */; };
+		39537C4A25FA0CCF007A641B /* ButtonPlus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39537C4925FA0CCF007A641B /* ButtonPlus.swift */; };
+		3957D5D625F2ECCF00B7CD36 /* FirstPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3957D5D525F2ECCF00B7CD36 /* FirstPage.swift */; };
+		3957D5DF25F2F24600B7CD36 /* ViewSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3957D5DE25F2F24600B7CD36 /* ViewSwitcher.swift */; };
+		3957D5E725F2F6E800B7CD36 /* multiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3957D5E625F2F6E800B7CD36 /* multiply.swift */; };
+		3957D5F625F2F7C600B7CD36 /* ViewStructer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3957D5F525F2F7C600B7CD36 /* ViewStructer.swift */; };
+		398A46E925F77D30008AB21D /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398A46E825F77D30008AB21D /* MainPage.swift */; };
+		398A46F125F784DF008AB21D /* childPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398A46F025F784DF008AB21D /* childPage.swift */; };
+		39A944FD25FCFAEC00947863 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39A944FC25FCFAEC00947863 /* PlaySound.swift */; };
+		39A9450525FD004200947863 /* Creepy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 39A9450425FD004200947863 /* Creepy.mp3 */; };
+		39E1369C25F5515C000749E3 /* Digits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E1369B25F5515C000749E3 /* Digits.swift */; };
+		39E6EDDA25F8191900BF8ACF /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E6EDD925F8191900BF8ACF /* Division.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3946381725F2DD1200186A86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394637FD25F2DD0F00186A86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3946380425F2DD0F00186A86;
+			remoteInfo = MonstroMath;
+		};
+		3946382225F2DD1200186A86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394637FD25F2DD0F00186A86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3946380425F2DD0F00186A86;
+			remoteInfo = MonstroMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		393E9E4A25F6A790003F20C5 /* myFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFunction.swift; sourceTree = "<group>"; };
+		3946380525F2DD0F00186A86 /* MonstroMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonstroMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3946380825F2DD0F00186A86 /* MonstroMathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstroMathApp.swift; sourceTree = "<group>"; };
+		3946380C25F2DD1200186A86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3946380F25F2DD1200186A86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3946381125F2DD1200186A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3946381625F2DD1200186A86 /* MonstroMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonstroMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3946381A25F2DD1200186A86 /* MonstroMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstroMathTests.swift; sourceTree = "<group>"; };
+		3946381C25F2DD1200186A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3946382125F2DD1200186A86 /* MonstroMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonstroMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3946382525F2DD1200186A86 /* MonstroMathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstroMathUITests.swift; sourceTree = "<group>"; };
+		3946382725F2DD1200186A86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3946EFB825F96A3500CBAF83 /* ViewChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewChild.swift; sourceTree = "<group>"; };
+		39537C4125FA086A007A641B /* ButtonMinus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMinus.swift; sourceTree = "<group>"; };
+		39537C4925FA0CCF007A641B /* ButtonPlus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPlus.swift; sourceTree = "<group>"; };
+		3957D5D525F2ECCF00B7CD36 /* FirstPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPage.swift; sourceTree = "<group>"; };
+		3957D5DE25F2F24600B7CD36 /* ViewSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSwitcher.swift; sourceTree = "<group>"; };
+		3957D5E625F2F6E800B7CD36 /* multiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = multiply.swift; sourceTree = "<group>"; };
+		3957D5F525F2F7C600B7CD36 /* ViewStructer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewStructer.swift; sourceTree = "<group>"; };
+		398A46E825F77D30008AB21D /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		398A46F025F784DF008AB21D /* childPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = childPage.swift; sourceTree = "<group>"; };
+		39A944FC25FCFAEC00947863 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		39A9450425FD004200947863 /* Creepy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Creepy.mp3; sourceTree = "<group>"; };
+		39E1369B25F5515C000749E3 /* Digits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digits.swift; sourceTree = "<group>"; };
+		39E6EDD925F8191900BF8ACF /* Division.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3946380225F2DD0F00186A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3946381325F2DD1200186A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3946381E25F2DD1200186A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		394637FC25F2DD0F00186A86 = {
+			isa = PBXGroup;
+			children = (
+				3946380725F2DD0F00186A86 /* MonstroMath */,
+				3946381925F2DD1200186A86 /* MonstroMathTests */,
+				3946382425F2DD1200186A86 /* MonstroMathUITests */,
+				3946380625F2DD0F00186A86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3946380625F2DD0F00186A86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3946380525F2DD0F00186A86 /* MonstroMath.app */,
+				3946381625F2DD1200186A86 /* MonstroMathTests.xctest */,
+				3946382125F2DD1200186A86 /* MonstroMathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3946380725F2DD0F00186A86 /* MonstroMath */ = {
+			isa = PBXGroup;
+			children = (
+				3946380825F2DD0F00186A86 /* MonstroMathApp.swift */,
+				3957D5D525F2ECCF00B7CD36 /* FirstPage.swift */,
+				398A46E825F77D30008AB21D /* MainPage.swift */,
+				398A46F025F784DF008AB21D /* childPage.swift */,
+				3957D5E625F2F6E800B7CD36 /* multiply.swift */,
+				39E6EDD925F8191900BF8ACF /* Division.swift */,
+				39537C4125FA086A007A641B /* ButtonMinus.swift */,
+				39537C4925FA0CCF007A641B /* ButtonPlus.swift */,
+				3946380C25F2DD1200186A86 /* Assets.xcassets */,
+				3946381125F2DD1200186A86 /* Info.plist */,
+				39E1369A25F55139000749E3 /* Models */,
+				3957D5DD25F2F12000B7CD36 /* ViewModels */,
+				3946380E25F2DD1200186A86 /* Preview Content */,
+			);
+			path = MonstroMath;
+			sourceTree = "<group>";
+		};
+		3946380E25F2DD1200186A86 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3946380F25F2DD1200186A86 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3946381925F2DD1200186A86 /* MonstroMathTests */ = {
+			isa = PBXGroup;
+			children = (
+				3946381A25F2DD1200186A86 /* MonstroMathTests.swift */,
+				3946381C25F2DD1200186A86 /* Info.plist */,
+			);
+			path = MonstroMathTests;
+			sourceTree = "<group>";
+		};
+		3946382425F2DD1200186A86 /* MonstroMathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3946382525F2DD1200186A86 /* MonstroMathUITests.swift */,
+				3946382725F2DD1200186A86 /* Info.plist */,
+			);
+			path = MonstroMathUITests;
+			sourceTree = "<group>";
+		};
+		3957D5DD25F2F12000B7CD36 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				39A944FC25FCFAEC00947863 /* PlaySound.swift */,
+				3957D5DE25F2F24600B7CD36 /* ViewSwitcher.swift */,
+				3957D5F525F2F7C600B7CD36 /* ViewStructer.swift */,
+				3946EFB825F96A3500CBAF83 /* ViewChild.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		39E1369A25F55139000749E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				39A9450425FD004200947863 /* Creepy.mp3 */,
+				39E1369B25F5515C000749E3 /* Digits.swift */,
+				393E9E4A25F6A790003F20C5 /* myFunction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3946380425F2DD0F00186A86 /* MonstroMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3946382A25F2DD1200186A86 /* Build configuration list for PBXNativeTarget "MonstroMath" */;
+			buildPhases = (
+				3946380125F2DD0F00186A86 /* Sources */,
+				3946380225F2DD0F00186A86 /* Frameworks */,
+				3946380325F2DD0F00186A86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonstroMath;
+			productName = MonstroMath;
+			productReference = 3946380525F2DD0F00186A86 /* MonstroMath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3946381525F2DD1200186A86 /* MonstroMathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3946382D25F2DD1200186A86 /* Build configuration list for PBXNativeTarget "MonstroMathTests" */;
+			buildPhases = (
+				3946381225F2DD1200186A86 /* Sources */,
+				3946381325F2DD1200186A86 /* Frameworks */,
+				3946381425F2DD1200186A86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3946381825F2DD1200186A86 /* PBXTargetDependency */,
+			);
+			name = MonstroMathTests;
+			productName = MonstroMathTests;
+			productReference = 3946381625F2DD1200186A86 /* MonstroMathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3946382025F2DD1200186A86 /* MonstroMathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3946383025F2DD1200186A86 /* Build configuration list for PBXNativeTarget "MonstroMathUITests" */;
+			buildPhases = (
+				3946381D25F2DD1200186A86 /* Sources */,
+				3946381E25F2DD1200186A86 /* Frameworks */,
+				3946381F25F2DD1200186A86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3946382325F2DD1200186A86 /* PBXTargetDependency */,
+			);
+			name = MonstroMathUITests;
+			productName = MonstroMathUITests;
+			productReference = 3946382125F2DD1200186A86 /* MonstroMathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		394637FD25F2DD0F00186A86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3946380425F2DD0F00186A86 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3946381525F2DD1200186A86 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3946380425F2DD0F00186A86;
+					};
+					3946382025F2DD1200186A86 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 3946380425F2DD0F00186A86;
+					};
+				};
+			};
+			buildConfigurationList = 3946380025F2DD0F00186A86 /* Build configuration list for PBXProject "MonstroMath" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 394637FC25F2DD0F00186A86;
+			productRefGroup = 3946380625F2DD0F00186A86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3946380425F2DD0F00186A86 /* MonstroMath */,
+				3946381525F2DD1200186A86 /* MonstroMathTests */,
+				3946382025F2DD1200186A86 /* MonstroMathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3946380325F2DD0F00186A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3946381025F2DD1200186A86 /* Preview Assets.xcassets in Resources */,
+				3946380D25F2DD1200186A86 /* Assets.xcassets in Resources */,
+				39A9450525FD004200947863 /* Creepy.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3946381425F2DD1200186A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3946381F25F2DD1200186A86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3946380125F2DD0F00186A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3957D5D625F2ECCF00B7CD36 /* FirstPage.swift in Sources */,
+				3957D5E725F2F6E800B7CD36 /* multiply.swift in Sources */,
+				39E6EDDA25F8191900BF8ACF /* Division.swift in Sources */,
+				3946EFB925F96A3500CBAF83 /* ViewChild.swift in Sources */,
+				3957D5F625F2F7C600B7CD36 /* ViewStructer.swift in Sources */,
+				393E9E4B25F6A790003F20C5 /* myFunction.swift in Sources */,
+				398A46E925F77D30008AB21D /* MainPage.swift in Sources */,
+				3957D5DF25F2F24600B7CD36 /* ViewSwitcher.swift in Sources */,
+				398A46F125F784DF008AB21D /* childPage.swift in Sources */,
+				3946380925F2DD0F00186A86 /* MonstroMathApp.swift in Sources */,
+				39537C4A25FA0CCF007A641B /* ButtonPlus.swift in Sources */,
+				39537C4225FA086A007A641B /* ButtonMinus.swift in Sources */,
+				39E1369C25F5515C000749E3 /* Digits.swift in Sources */,
+				39A944FD25FCFAEC00947863 /* PlaySound.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3946381225F2DD1200186A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3946381B25F2DD1200186A86 /* MonstroMathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3946381D25F2DD1200186A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3946382625F2DD1200186A86 /* MonstroMathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3946381825F2DD1200186A86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3946380425F2DD0F00186A86 /* MonstroMath */;
+			targetProxy = 3946381725F2DD1200186A86 /* PBXContainerItemProxy */;
+		};
+		3946382325F2DD1200186A86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3946380425F2DD0F00186A86 /* MonstroMath */;
+			targetProxy = 3946382225F2DD1200186A86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3946382825F2DD1200186A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3946382925F2DD1200186A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3946382B25F2DD1200186A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MonstroMath/Preview Content\"";
+				DEVELOPMENT_TEAM = 3CD933VZ6F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MonstroMath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Perepolkina.MonstroMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3946382C25F2DD1200186A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MonstroMath/Preview Content\"";
+				DEVELOPMENT_TEAM = 3CD933VZ6F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MonstroMath/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Perepolkina.MonstroMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3946382E25F2DD1200186A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonstroMathTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Halyna.MonstroMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstroMath.app/MonstroMath";
+			};
+			name = Debug;
+		};
+		3946382F25F2DD1200186A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonstroMathTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Halyna.MonstroMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonstroMath.app/MonstroMath";
+			};
+			name = Release;
+		};
+		3946383125F2DD1200186A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonstroMathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Halyna.MonstroMathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonstroMath;
+			};
+			name = Debug;
+		};
+		3946383225F2DD1200186A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MonstroMathUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Halyna.MonstroMathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonstroMath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3946380025F2DD0F00186A86 /* Build configuration list for PBXProject "MonstroMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3946382825F2DD1200186A86 /* Debug */,
+				3946382925F2DD1200186A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3946382A25F2DD1200186A86 /* Build configuration list for PBXNativeTarget "MonstroMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3946382B25F2DD1200186A86 /* Debug */,
+				3946382C25F2DD1200186A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3946382D25F2DD1200186A86 /* Build configuration list for PBXNativeTarget "MonstroMathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3946382E25F2DD1200186A86 /* Debug */,
+				3946382F25F2DD1200186A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3946383025F2DD1200186A86 /* Build configuration list for PBXNativeTarget "MonstroMathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3946383125F2DD1200186A86 /* Debug */,
+				3946383225F2DD1200186A86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 394637FD25F2DD0F00186A86 /* Project object */;
+}
